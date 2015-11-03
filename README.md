@@ -1,3 +1,5 @@
 # traffic-shaping
 
-Script para modelado de tráfico a través de un proxy basado en IPFire.
+Script para el modelado de tráfico a medida a través de un proxy transparente basado en IPFire.
+
+El algoritmo utilizado para el reparto de ancho de banda es el HTB. Se utilizan colas SFQ para la planificación en las distintas subclases.
