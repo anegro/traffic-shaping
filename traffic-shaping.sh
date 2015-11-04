@@ -84,7 +84,7 @@ echo -e "\n"
 
 ### PREPARATIVOS ###############################################################
 # Borrar reglas de la tabla magle
-iptables -t mangle -F
+iptables -t mangle -F POSTROUTING
 
 # Borrar la qdisc ingress de WAN
 #tc qdisc del dev $WAN ingress
